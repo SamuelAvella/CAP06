@@ -21,9 +21,6 @@ public class Ejercicio3 {
         }
         int carta = (int)(Math.random()*10)+1;
         switch (carta) {
-            case 1: 
-                Carta = "As";
-                break;
             case 8: 
                 Carta = "Sota";
                 break;
