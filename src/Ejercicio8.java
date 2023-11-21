@@ -7,37 +7,37 @@ public class Ejercicio8 {
             switch (num) {
                 case 1,2,3:
                     if (i<10)
-                        System.out.println("| "+i+"  | 1 |");   
+                        System.out.println("| "+i+"  |1  |   |   |");   
                     else
-                        System.out.println("| "+i+" | 1 |");
+                        System.out.println("| "+i+" |1  |   |   |");
                     break;
                 case 4,5:
                     if (i<10)
-                        System.out.println("| "+i+"  | X |");   
+                        System.out.println("| "+i+"  |   | X |   |");   
                     else
-                        System.out.println("| "+i+" | X |");
+                        System.out.println("| "+i+" |   | X |   |");
                     break;
                 case 6:
                     if (i<10)
-                        System.out.println("| "+i+"  | 2 |");   
+                        System.out.println("| "+i+"  |   |   |  2|");   
                     else
-                        System.out.println("| "+i+" | 2 |");  
+                        System.out.println("| "+i+" |   |   |  2|");  
                     break;
             }            
        }
        int pleno = (int)(Math.random()*7);
        switch (pleno) {
         case 0:
-            System.out.print("| 15 | 0 |");
+            System.out.print("| 15 | 0 |   |   |   |");
             break;
         case 1,2,3:
-            System.out.print("| 15 | 1 |");
+            System.out.print("| 15 | 0  | 1  |   |   |");
             break;
         case 4,5:
-            System.out.print("| 15 | 2 |");
+            System.out.print("| 15 |   |   | 2 |   |");
             break;
         case 6:
-            System.out.print("| 15 | M |");
+            System.out.print("| 15 |   |   |   | M |");
             break;
        }
     }

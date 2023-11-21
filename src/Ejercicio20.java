@@ -16,17 +16,20 @@ public class Ejercicio20 {
         }
         litroAleatorio = (int)(Math.random()*litro)+1;
         for (int i = 1; i <= litro; i++) {
-            System.out.print("*");
+            System.out.print(RESET+"\u2588");
             for (int j = 1; j <= 4; j++) {
                 if (litroAleatorio>i)
                     System.out.print(" ");
                 if (litroAleatorio<=i)
-                    System.out.print("=");
+                    System.out.print(BLUE+"\u2588");
             }
-            System.out.println("*");
+            System.out.println(RESET+"\u2588");
         }
         for (int i = 1; i <= 6; i++) {
-            System.out.print("*");
+            System.out.print(RESET+"\u2580");
         }
     }
+    public static final String BLUE = "\033[0;34m";
+    public static final String RESET = "\033[0m";
+    public static final String BLUE_BACKGROUND = "\033[44m";
 }

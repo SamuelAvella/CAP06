@@ -6,6 +6,7 @@ public class Ejercicio29 {
         System.out.println("4. Invierno");
         System.out.print("Seleccione la estación del año (1-4): ");
         int estacion = Integer.parseInt(System.console().readLine());
+        System.out.println();
         int min = 0, max = 0, minima = 0, nublado = 0;
         switch (estacion) {
             case 1:
@@ -15,7 +16,7 @@ public class Ejercicio29 {
                 System.out.println("Previsión del tiempo para mañana");
                 System.out.println("--------------------------------");
                 System.out.printf("Temperatura mínima: %dºC\n",(minima=(int)(Math.random()*15)+15)); 
-                System.out.printf("Temperatura máxima: %dºC\n",(int)(Math.random()*(30-min))+min);
+                System.out.printf("Temperatura máxima: %dºC\n",(int)(Math.random()*(30-minima))+minima);
                 switch (nublado) {
                     case 1,2,3,4,5,6:
                         System.out.print("soleado");
@@ -32,7 +33,7 @@ public class Ejercicio29 {
                 System.out.println("Previsión del tiempo para mañana");
                 System.out.println("--------------------------------");
                 System.out.printf("Temperatura mínima: %dºC\n",(minima=(int)(Math.random()*25)+20)); 
-                System.out.printf("Temperatura máxima: %dºC\n",(int)(Math.random()*(45-min))+min);
+                System.out.printf("Temperatura máxima: %dºC\n",(int)(Math.random()*(45-minima))+minima);
                 switch (nublado) {
                     case 1,2,3,4,5,6,7,8:
                         System.out.print("soleado");
@@ -49,7 +50,7 @@ public class Ejercicio29 {
                 System.out.println("Previsión del tiempo para mañana");
                 System.out.println("--------------------------------");
                 System.out.printf("Temperatura mínima: %dºC\n",(minima=(int)(Math.random()*10)+20)); 
-                System.out.printf("Temperatura máxima: %dºC\n",(int)(Math.random()*(30-min))+min);
+                System.out.printf("Temperatura máxima: %dºC\n",(int)(Math.random()*(30-minima))+minima);
                 switch (nublado) {
                     case 1,2,3,4:
                         System.out.print("soleado");
@@ -66,7 +67,7 @@ public class Ejercicio29 {
                 System.out.println("Previsión del tiempo para mañana");
                 System.out.println("--------------------------------");
                 System.out.printf("Temperatura mínima: %dºC\n",(minima=(int)(Math.random()*25))); 
-                System.out.printf("Temperatura máxima: %dºC\n",(int)(Math.random()*(25-min))+min);
+                System.out.printf("Temperatura máxima: %dºC\n",(int)(Math.random()*(25-minima))+minima);
                 switch (nublado) {
                     case 1,2:
                         System.out.print("soleado");
